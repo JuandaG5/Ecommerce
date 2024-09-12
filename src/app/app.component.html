@@ -1,0 +1,82 @@
+<link rel="stylesheet" href="./app.component.css" />
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+  crossorigin="anonymous"
+/>
+<link
+  href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+  rel="stylesheet"
+/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<div class="div-main">
+  <div class="div-header">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img class="img-logo" src="assets/images/LogoPETSPA.png" alt="Logo">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Servicios
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">SPA</a></li>
+              <li><a class="dropdown-item" href="#">Vacunación</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Consulta Médica Básica</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">{{slogan}}</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Encuentra Servicios"
+            aria-label="Buscar"
+          />
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+          <a aria-label="Register" target="_self" rel="noopener" href="./register.component.html">
+          <button class="btn btn-outline-success register" type="submit">Registrate</button>
+          </a>
+          <button class="btn btn-outline-success register" type="submit">Accede</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- <router-outlet></router-outlet> -->
+</div>
+</div>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"
+></script>

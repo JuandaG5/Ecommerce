@@ -1,0 +1,23 @@
+.div-title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  background-color: blueviolet;
+}
+
+button{
+  margin-right: 0.5rem ;
+}
+.img-logo{
+  margin-right: 2rem;
+}
+
+.div-main{
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
+}
+
+.img-logo{
+  height: 4rem;
+}
