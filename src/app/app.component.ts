@@ -1,9 +1,11 @@
-import { Component } from '@angular/core';
-// import {RouterLink, RouterOutlet,RouterLinkActive} from '@angular/router';
+import { Component, inject } from '@angular/core';
+import {RouterLink, RouterOutlet,RouterLinkActive, RouterModule} from '@angular/router';
+import { RegisterComponent } from '../register/register.component';
+
 
 @Component({
   // standalone: true,
-  // imports: [RouterLink, RouterLinkActive, RouterOutlet],
+  // imports: [RouterLink, RouterLinkActive, RouterOutlet, RouterModule],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
